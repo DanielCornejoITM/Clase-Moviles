@@ -156,3 +156,12 @@ septieme()
 
 
 
+//Estructuras y Enums
+struct MiEstructura{
+    var edad: Int
+    var nombre: String = ""
+}
+
+
+
+
