@@ -163,5 +163,35 @@ struct MiEstructura{
 }
 
 
+//Clases
 
+class Miclase2{
+    init(){
+        print("Soy el constructor")
+    }
+}
+let mc2 = Miclase2()
+
+class Miclase3{
+    
+    init(){}
+    init(nombre: String, hobby : String){
+        print( "A \(nombre) le gusta \(hobby)")
+    }
+}
+
+let mc3 = Miclase3(nombre: "Alex", hobby: "Nadar")
+
+class Miclase4{
+    var mascota : String?
+    init() {
+        mascota = "Perro"
+    }
+}
+
+let mc4 = Miclase4()
+
+print(mc4.mascota!)
+mc4.mascota! = "Gato"
+print(mc4.mascota!)
 
